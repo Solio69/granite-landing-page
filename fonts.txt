@@ -1,0 +1,2 @@
+font-family: "Gotham Pro"; 500 400 300 700
+заменен на font-family: 'Exo 2', sans-serif;
