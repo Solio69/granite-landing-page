@@ -152,7 +152,7 @@ img {
     margin-right: 31px;
 }
     .intro__btn:hover {
-        color: #0d0d0d;
+        color: #000000;
         font-weight: 700;
         text-decoration: none;
     }
@@ -213,7 +213,7 @@ img {
     text-decoration: underline;
 }
     .stock__item__title:hover {
-        color: #292929;
+        color: #000000;
         font-weight: 700;
     } 
 .stock__item__text {
@@ -242,7 +242,7 @@ img {
     margin-bottom: 35px;
 }
     .stock__item__btn:hover {
-        color: #0d0d0d;
+        color: #000000;
         font-weight: 700;
         text-decoration: none;
     }
@@ -350,7 +350,7 @@ img {
     padding-top: 12px;
 }
     .popular__name:hover {
-        color: #292929;
+        color: #000000;
         font-weight: 600;
     }
 
@@ -380,7 +380,7 @@ img {
     padding: 18px 70px;
 }
     .popular__btn:hover {
-        color: #0d0d0d;
+        color: #000000;
         text-decoration: none;
         font-weight: 700;
     }
@@ -410,15 +410,77 @@ img {
     flex-direction: column;
     align-items: center;
 }
+    .service__item:hover {
+        background-color: #ffffff;
+    }
 .service__img {
     padding: 50px 23px 0;
 }
 .service__text {
     justify-content: space-between;
-    color: #292929;
-    font-family: "Gotham Pro";
+    color: #292929; 
     font-size: 15px;
     font-weight: 500;
     text-decoration: underline;
     padding: 26px 0 20px;
+}
+    .service__text:hover {
+        font-weight: 600;
+        color:#000000; 
+    }/*/ .service*/
+
+    /*contact*/
+.contact {
+    max-width: 100%; 
+    margin: 0 auto;
+    background-image: url(img/contact.jpg)
+}
+.contact__wrapper {
+    width: 380px;
+    margin-left: 560px;
+    margin-top: 80px;
+    background-color: #ffffff;
+    margin-bottom: 70px;
+}
+.contact__iner {
+    padding-left: 61px;
+    padding-bottom: 50px;
+}
+.contact__title {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.contact__text {
+    line-height: 40px;
+}
+.contact__text li:nth-child(1) {
+    color: #292929;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    list-style-image: url(img/contact_icon1.png);
+    padding-left: 10px;
+    margin-left: -15px;
+}
+.contact__text li:nth-child(2) {
+    color: #292929;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-image: url(img/contact_icon2.png);
+    padding-left: 10px;
+    margin-left: -15px;
+}
+.contact__text li:nth-child(3) {
+    color: #292929;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    list-style-image: url(img/contact_icon3.png);
+    padding-left: 10px;
+    margin-left: -15px;
 }
