@@ -20,9 +20,7 @@ img {
     display: flex;
     justify-content: space-between;
 }
-.logo__img {
 
-}
 .logo__iner{
     margin-left: 14px;
 }
@@ -80,8 +78,7 @@ img {
 /*/ .header*/
 
 /*nav*/
-.nav {
-}
+
 .nav__wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -104,7 +101,6 @@ img {
         text-decoration: none;
     }
 /*/ .nav*/
-
 
 /*intro*/
 .intro {
@@ -173,11 +169,8 @@ img {
     }
 /*/ .intro*/
 
-
 /*stock*/
-.stock{
 
-}
 .stock__title {
     text-align: center;
     color: #292929;
@@ -298,20 +291,18 @@ img {
 /*/ .advantages*/
 
 /*popular*/
-.popular {
 
-}
 .popular__title {
     text-align: center;
     color: #292929;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 70px;
-    padding-bottom: 55px;
+    padding: 70px 0 55px;
 }
 .popular__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 94px;
 }
@@ -327,9 +318,7 @@ img {
 .popular__img {
     position: relative;
 }
-.popular__img__main {
 
-}
 .popular__action {
     position: absolute;
     top: 18px;
@@ -497,9 +486,7 @@ img {
     justify-content: space-between;
     padding: 40px 0;
 }
-.copyright {
 
-}
 .footer__logo {
     display: flex;
     align-items: center; 
@@ -530,7 +517,7 @@ img {
     color: #ffffff;
 }   
 .footer__contact__info {
-padding-bottom: 31px;
+    padding-bottom: 31px;
 } 
 .footer__contact__tel {
     font-size: 18px;
@@ -545,7 +532,7 @@ padding-bottom: 31px;
     line-height: 22px;
     color: #ffffff;
 }
-.footer_btn {
+.footer__btn {
     border: 2px solid #ffffff;
     font-size: 12px;
     font-weight: 600;
@@ -553,8 +540,10 @@ padding-bottom: 31px;
     color: #ffffff;
     padding: 10px 27px;
 }
-    .footer_btn:hover {
-        color: #ffffff;
-        font-weight: 700;
-        text-decoration: none;
-    }
+.footer__btn:hover {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+    
+    
